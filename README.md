@@ -1,1 +1,3 @@
-# metodos-array
+# Métodos funcionales de los Array
+
+Propiedad `.length`
