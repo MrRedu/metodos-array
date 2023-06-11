@@ -1,6 +1,22 @@
-# Métodos funcionales de los Array
+# ¿Qué es un Array? 
+Colección o **agrupación de elementos de cualquier tipo en una misma variable,** cada uno de ellos ubicado con referencia a la posición que ocupa dentro del mismo. <br>
+### Creación:
+```
+const cars = ['🚗', '🚓', '🚕', '🚐', '🚛']
+```
+### Estructura:
+Los elementos del Array, están posicionados por *index/índice,* esto quiere decir que el primer elemento, tiene la posición [0]
+```
+cars[0] // '🚗'
+cars[1] // '🚓'
+...
+cars[4] // '🚛'
+```
 
-Propiedad `.length`: Nos muestra la cantidad de elementos que posee dicho array.
+## Métodos funcionales de los Array
+
+Irónicamente comenzaremos la lista de métodos funcionales, con una propiedad *(no es un método)*. <br>
+Esta propiedad es `.length`: Nos muestra la cantidad de elementos que posee dicho array.
 
 Método `.toString()`: Transforma todos los elementos del Array en una cadena de texto *(string)*
 
