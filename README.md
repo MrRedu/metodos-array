@@ -47,4 +47,12 @@ numeros.sort()      // [-5, 1, 159.5, 42, 428, 5, 98]
 letras.reverse()    // ['Z', 'Y', 'Q', 'L', 'K', 'C', 'B', 'A']
 numeros.reverse()   // [98, 5, 428, 42, 159.5, 1, -5]
 ```
-**** investigar el reverse()
+⚠⚠⚠ investigar el reverse() y el sort() ⚠⚠⚠
+
+Método `.concat()`: Permite juntar/concatenar dos Array.
+```
+const frutas = ['Melón', 'Manzana', 'Sandía', 'Piña']
+const fruits = ['🍈', '🍎', '🍉', '🍍']
+
+frutas.concat(fruits)  // ['Melón', 'Manzana', 'Sandía', 'Piña', '🍈', '🍎', '🍉', '🍍']
+```
