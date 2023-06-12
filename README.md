@@ -35,19 +35,20 @@ const frutas = ['Manzana', 'Melón', 'Fresa', 'Mora', 'Sandía']
 frutas.join(' + ') // Manzana + Melón + Fresa + Mora + Sandía
 ```
 
-Método `.sort()`: Ordena el Array de forma ascendente.
-Método `.reverse()`: Ordena el Array de forma descendente.
+Método `.sort()`: Ordena el Array (de manera ascendente en casos muy sencillos). El orden no es necesariamente [estable](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability). El modo de ordenación por defecto responde a la posición del valor del string de acuerdo a su valor Unicode
 ```
-const letras = ['K', 'Z', 'Q', 'Y', 'L', 'B', 'A', 'C']
+const letras = ['D', 'H', 'F', 'G', 'E', 'B', 'A', 'C']
 const numeros = [5, 428, 1, -5, 159.5, 42, 98]
 
-letras.sort()       // ['A', 'B', 'C', 'K', 'L', 'Q', 'Y', 'Z']
+letras.sort()       // ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 numeros.sort()      // [-5, 1, 159.5, 42, 428, 5, 98]
-
-letras.reverse()    // ['Z', 'Y', 'Q', 'L', 'K', 'C', 'B', 'A']
-numeros.reverse()   // [98, 5, 428, 42, 159.5, 1, -5]
 ```
-⚠⚠⚠ investigar el reverse() y el sort() ⚠⚠⚠
+
+Método `.reverse()`: Invierte el orden de un Array. *El primer elemento pasa a ser el último, el último pasa a ser el primero*
+```
+const arreglo = ['abc', 500, 'QWE', false]
+arreglo.reverse() // [false, 'QWE', 500, 'abc']
+```
 
 Método `.concat()`: Permite juntar/concatenar dos Array.
 ```
