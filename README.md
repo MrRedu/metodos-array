@@ -58,7 +58,17 @@ const fruits = ['🍈', '🍎', '🍉', '🍍']
 frutas.concat(fruits)  // ['Melón', 'Manzana', 'Sandía', 'Piña', '🍈', '🍎', '🍉', '🍍']
 ```
 
+Método `.push()`: Añade uno o más elementos al final del Array. Devolviendo la nueva longitud del Array.
+```
+const colores = ['Amarillo', 'Magenta', 'Azul']
+colores.push('Rosado', 'Rojo') // 5
+```
 
+Método `.pop()`: Elimina el último objeto del Array. Devolviendo el elemento que eliminó.
+```
+const colores = ['Amarillo', 'Magenta', 'Azul']
+colores.pop() // Azul
+```
 
 <br><br>
 <br><br>
