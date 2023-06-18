@@ -64,10 +64,16 @@ const colores = ['Amarillo', 'Magenta', 'Azul']
 colores.push('Rosado', 'Rojo') // 5
 ```
 
-Método `.pop()`: Elimina el último objeto del Array. Devolviendo el elemento que eliminó.
+Método `.pop()`: Elimina el último elemento del Array. Devolviendo el elemento que eliminó.
 ```
 const colores = ['Amarillo', 'Magenta', 'Azul']
 colores.pop() // Azul
+```
+
+Método `.shift()`: Elimina el primer elemento del Array. Devolviendo el elemento que eliminó.
+```
+const dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
+dias.shift() // Lunes
 ```
 
 <br><br>
