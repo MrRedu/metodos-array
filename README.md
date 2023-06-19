@@ -76,6 +76,12 @@ const dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', '
 dias.shift() // Lunes
 ```
 
+Método `.unshift()`: Agrega uno o más elementos al inicio del Array. Devolviendo la nueva longitud del Array.
+```
+const meses = ['Marzo', 'Abril', 'Mayo']
+meses.unshift('Enero', 'Febrero') // 5
+```
+
 <br><br>
 <br><br>
 ### 🚧 **¡En construción!** 🚧 . . . 👷🏻‍♀️🔨 . . .
