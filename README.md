@@ -123,7 +123,7 @@ personas.splice(3, 0, 'P-KLJ', 'P-XIY') // ['P1', 'P2', 'P3', 'P-KLJ', 'P-XIY', 
   personas.splice(3, 0, 'P-KLJ', 'P-XIY') // ['P1', 'P2', 'P3', 'P-KLJ', 'P-XIY', 'P4', 'P5']
   ```
 
-Método `.slice()`: Devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido). El array original no se modificará.
+Método `.slice()`: Devuelve una copia de una parte del Array dentro de un nuevo Array empezando por inicio hasta fin (fin no incluido). *El array original no se modificará.*
 ```js
 const letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']
              //  0,   1,   2,   3,   4,   5,   6,   7,   8  <= Posiciones/índice de los elementos dentro del Array
