@@ -83,7 +83,7 @@ meses.unshift('Enero', 'Febrero') // 5
 ```
 
 Método `.splice()`: Cambia el contenido de un Array eliminando (o no) elementos existentes y/o agregando nuevos elementos.
-###### Caso #1:
+**Caso #1:**
 ```js
 const personas = ['P1', 'P2', 'P3', 'P4', 'P5']
 personas.splice(1, 2, 'P2-B', 'P3-B') // ['P1', 'P2-B', 'P3-B', 'P4', 'P5']
@@ -103,7 +103,7 @@ personas.splice(1, 2, 'P2-B', 'P3-B') // ['P1', 'P2-B', 'P3-B', 'P4', 'P5']
     personas.splice(1, 2, 'PB-2', 'PB-3') // ['P1', 'P2-B', 'P3-B', 'P4', 'P5']
     ```
     
-###### Caso #2:
+**Caso #2:**
 ```js
 const personas = ['P1', 'P2', 'P3', 'P4', 'P5']
 personas.splice(3, 0, 'P-KLJ', 'P-XIY') // ['P1', 'P2', 'P3', 'P-KLJ', 'P-XIY', 'P4', 'P5']
