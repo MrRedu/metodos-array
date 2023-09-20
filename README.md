@@ -5,7 +5,7 @@ Colección o **agrupación de elementos de cualquier tipo en una misma variable,
 const carros = ['🚗', '🚓', '🚕', '🚐', '🚛']
 ```
 ### Estructura:
-Los elementos del Array, están posicionados por *index/índice,* esto quiere decir que el primer elemento, tiene la posición [0].
+Los elementos del Array, están posicionados por *index/índice,* (a esto se le llama, *Indexación basada en cero/Indexación desde cero/Zero-based indexing*) esto quiere decir que el primer elemento, tiene la posición [0].
 ```js
 carros[0] // '🚗'
 carros[1] // '🚓'
