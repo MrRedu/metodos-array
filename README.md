@@ -135,6 +135,28 @@ const resultadoLetrasDos = letras.slice(2) // ['C', 'D', 'E', 'F', 'G', 'H', 'I'
 const resultadoLetrasTres = letras.slice(2, 5) // ['C', 'D', 'E']
 ```
 
+Método `.includes()`: Comprueba si un valor específico está presente en el Array.
+```js
+const array = [1, 3, 5];
+array.includes(2)      // false
+array.includes(5)      // true
+```
+
+Método `.some()`: Comprueba si al menos uno de los elementos dentro del Array, cumple con la condición implementada por la función proporcionada.
+```js
+const array = [1, false, 5];
+array.some((element) => element === false)        // true
+array.some((element) => element > 25)             // false
+```
+
+Método `.find()`: Devuelve el valor del primer elemento del Array que cumple con la condición implementada por la función proporcionada.
+```js
+const array = [3, 8, 5];
+array.find((element) => element > 1)                     // 3
+array.find((element) => element > 4 && element < 7)      // 5
+```
+
+
 
 
 <br><br>
